@@ -1,0 +1,62 @@
+
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+body {
+   
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.wave {
+  top: 85%;
+}
+
+#weathercon {
+  font-size: 4em;
+}
+ 
+.info {
+  font-size: 1.2rem;
+ 
+}
+@media (max-height: 500px){
+  .box{
+    height: 80vh;
+  }
+
+  .wave {
+    top: 100%;
+  }
+} 
+.box{
+  width: 100%;
+  height: 90vh;
+  padding: 100px;
+ 
+ 
+}
+.box .info{
+  width: 25%;
+  height: 75%;
+  margin: 5% auto;
+  
+  padding: 4% 4%;
+  text-align: center;
+  background-color:lightblue;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
